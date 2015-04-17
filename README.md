@@ -7,7 +7,7 @@ There is well known [example](https://github.com/chenglou/react-treeview) of Tre
 
 This example on the other hand can handle the data more dynamically.  Check the demo with two example trees.
 
-## If you want to test it localy, simply clone the repo.
+If you want to test it, simply clone the repo.
 
 Run:  
 ```
@@ -15,4 +15,4 @@ npm install
 npm start
 ```
 
-Check your http://localhost:3000/ 
+Check your http://localhost:3000/ and then put your data to the scripts/mockData.js. 

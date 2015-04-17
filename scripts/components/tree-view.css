@@ -1,0 +1,36 @@
+/* the tree node's style */
+
+.tree-node {
+    overflow-y: hidden;
+}
+
+/* style for the container */
+.tree-node-children {
+    margin-left: 15px;
+}
+
+/* style for the leaf */
+.tree-node-leaf {
+    margin-left: 12px;
+}
+
+.tree-node-children-collapsed {
+    height: 0px;
+}
+
+.tree-node-arrow {
+    cursor: pointer;
+    margin-right: 6px;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* rotate the triangle to close it */
+.tree-node-arrow-collapsed {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}

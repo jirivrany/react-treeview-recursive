@@ -5,7 +5,7 @@ Can be the React component recursive? Why not, after all it's JavaScript functio
 
 There is well known [example](https://github.com/chenglou/react-treeview) of Tree View made by [chenglou](https://github.com/chenglou). It works quite good, but only if you know the level of your tree in advance. 
 
-This example on the other hand can handle the data more dynamically.  Check the demo with two example trees.
+This example on the other hand can handle the data more dynamically.  Check the [demo with two examples](http://jirivrany.github.io/react-treeview-recursive/).
 
 If you want to test it, simply clone the repo.
 

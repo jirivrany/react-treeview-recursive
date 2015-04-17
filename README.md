@@ -1,19 +1,18 @@
-React Tree View Recursive Example
+React TreeView Recursive Example
 ==================================
 
-This is a sample of Recursive Tree View Component for ReactJS
+Can be the React component recursive? Why not, after all it's JavaScript function. This repo contains a sample of Recursive TreeView Component.
 
-There is [great example](https://github.com/chenglou/react-treeview) of Tree View made by [chenglou](https://github.com/chenglou). However his approach requires to know the level of tree in advance. 
+There is well known [example](https://github.com/chenglou/react-treeview) of Tree View made by [chenglou](https://github.com/chenglou). It works quite good, but only if you know the level of your tree in advance. 
 
-If you for example need to display server-created category tree from API response, a recursive approach come handy.  
+This example on the other hand can handle the data more dynamically.  Check the demo with two example trees.
 
-Check the simple demo displaying following tree:
+## If you want to test it localy, simply clone the repo.
 
-Root (0)
-|   +-- A (1)
-|   +-- B (2)
-|   |   +-- C (3)
-|   |   +-- D (4)
-|   |   |   +-- E (5)
-|   |   +-- F (6)
-|   |   |   +-- G (7)
+Run:  
+```
+npm install
+npm start
+```
+
+Check your http://localhost:3000/ 

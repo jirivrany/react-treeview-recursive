@@ -1,23 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Arrow from '../components/Arrow';
 
 
 
-let TreeNode = React.createClass({
+export default class TreeNode extends Component {
 
-    getInitialState: function() {
-        return {collapsed: false};
-    },
+    constructor(props) {
+        super(props);
+        this.state = {collapsed: false};
+    }
 
-    onClick: function () {
+
+    onClick() {
         
       this.setState({
             collapsed: !this.state.collapsed
         });
 
-    },
+    }
 
-    render: function () {
+    render() {
         
         let subtree = null;
         if (this.props.data.children) {
@@ -36,7 +38,7 @@ let TreeNode = React.createClass({
         if (subtree) {
           return (
             <div className="tree-node">
-                <Arrow arrowClassName={arrowClassName} onClick={this.onClick} />
+                <Arrow arrowClassName={arrowClassName} onClick={this.onClick.bind(this)} />
                 <a data-id={this.props.data.id}>
                     {this.props.data.name}
                 </a>
@@ -58,6 +60,4 @@ let TreeNode = React.createClass({
 
         
     }
-});
-
-export default TreeNode;
+};

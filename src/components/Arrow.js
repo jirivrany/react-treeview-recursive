@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default React.createClass({
-    render: function() {
+export default class Arrow extends Component {
+    
+    render() {
         return (
             <div
                 className={this.props.arrowClassName}
@@ -10,4 +11,4 @@ export default React.createClass({
             </div>
         );
     }
-});
+};
